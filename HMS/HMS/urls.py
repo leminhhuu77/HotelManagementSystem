@@ -45,7 +45,6 @@ urlpatterns = [
    
     path('deleteBooking/<str:pk>/', deleteBooking, name="deleteBooking"),
 
-    # Thêm 
     path('checkOutBooking/<str:pk>/', checkOutBooking, name="checkOutBooking"),
     path('monthlyReport', monthlyReport, name="monthlyReport"),
     path('roomTypeReport', roomTypeReport, name="roomTypeReport"),

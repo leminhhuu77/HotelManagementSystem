@@ -133,7 +133,7 @@ def add_room(request):
         if role == 'guest':
             guest = request.user.guest
         elif role == 'admin':
-            guest = request.user.employee
+            guest = request.user.manager
 
         number = request.POST.get('number')
         capacity = request.POST.get('capacity')

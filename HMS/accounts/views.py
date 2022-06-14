@@ -138,22 +138,22 @@ def guest_profile(request, pk):
 def employee_details(request, pk):
     if request.method == 'POST':
         user = User.objects.get(id=pk)
-        employee = Employee.objects.get(user=user)
+        manager = Manager.objects.get(user=user)
         user.first_name = request.POST.get("first_name")
         user.last_name = request.POST.get("last_name")
         user.email = request.POST.get("email")
-        employee.phoneNumber = request.POST.get("phoneNumber")
+        manager.phoneNumber = request.POST.get("phoneNumber")
         user.save()
-        employee.save()
+        manager.save()
         return redirect("home")
 
     role = str(request.user.groups.all()[0])
     path = role + "/"
 
     tempUser = User.objects.get(id=pk)
-    employee = Employee.objects.get(user=tempUser)
+    manager = Manager.objects.get(user=tempUser)
     context = {
         "role": role,
-        "employee": employee,
+        "manager": manager,
     }
     return render(request, path + "admin_page.html", context)
