@@ -115,6 +115,8 @@ python manage.py runserver
 # Future works
 
 # Reference
+* Creately, “The Easy Guide to UML Deployment Diagrams”. Địa chỉ: https://creately.com/blog/diagrams/deployment-diagram-tutorial/. [Truy cập ngày 20/05/2022]. 
+* Viblo, “Phân tích thiết kế hệ thống thông tin sử dụng biểu đồ UML”. Địa chỉ: https://creately.com/blog/diagrams/deployment-diagram-tutorial/. [Truy cập ngày 20/05/2022]. 
 * Django (3.0) Crash Course Tutorials: https://www.youtube.com/watch?v=xv_bwpA_aEA&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO
 * Bootstrap document: https://getbootstrap.com/docs/4.1/getting-started/introduction/
 * Django document: https://docs.djangoproject.com/en/4.0/
