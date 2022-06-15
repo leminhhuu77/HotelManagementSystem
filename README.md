@@ -36,8 +36,8 @@ pip install django-phonenumber-field[phonenumbers]
 git clone https://github.com/leminhhuu77/HotelManagementSystem.git
 ```
 ## Needed to create roles and admin account
-## If you want to use my database, i should sign up with username = 'admin' and password ='admin123' instead of step 3 below
-## Else You wil delete my database (file db.sqlite3) and Change Directory to HotelManagementSystem/HMS and run the shell
+### If you want to use my database, i should sign up with username = 'admin' and password ='admin123' instead of step 3 below
+### Else You wil delete my database (file db.sqlite3) and Change Directory to HotelManagementSystem/HMS and run the shell
 ```shell
 python manage.py makemigrations
 python manage.py migrate
