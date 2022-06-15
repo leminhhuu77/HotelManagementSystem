@@ -35,7 +35,14 @@ pip install django-phonenumber-field[phonenumbers]
 ```shell
 git clone https://github.com/leminhhuu77/HotelManagementSystem.git
 ```
-## Needed to create roles and admin account to add new employee accounts
+## Needed to create roles and admin account
+## If you want to use my database, i should sign up with username = 'admin' and password ='admin123' instead of step 3 below
+## Else You wil delete my database (file db.sqlite3) and Change Directory to HotelManagementSystem/HMS and run the shell
+```shell
+python manage.py makemigrations
+python manage.py migrate
+```
+## then excute step 3 below:
 3. Change Directory to HotelManagementSystem/HMS and start the Shell:
 ```shell
 python manage.py shell
@@ -99,11 +106,15 @@ python manage.py runserver
 * Step 4: Select `Settings > Config Vars` and add `PROJECT_PATH = HMS`, `PORT = 8000`.
 * Step 5: We add two buildpacks:
 	`https://github.com/timanovsky/subdir-heroku-buildpack` and `heroku/python`. Buildpack heroku/python will be below.
+* My public project: https://hotelmanagementsystem--hcmus.herokuapp.com/
+* We have some errors with our public project, so we will fix them in the future.
 # Demo production
 
 # Current status
+
 # Future works
 
 # Reference
 * Django (3.0) Crash Course Tutorials: https://www.youtube.com/watch?v=xv_bwpA_aEA&list=PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO
 * Bootstrap document: https://getbootstrap.com/docs/4.1/getting-started/introduction/
+* Django document: https://docs.djangoproject.com/en/4.0/
