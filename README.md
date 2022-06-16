@@ -109,11 +109,14 @@ python manage.py runserver
 * My public project: https://hotelmanagementsystem--hcmus.herokuapp.com/
 * We have some errors with our public project, so we will fix them in the future.
 # Demo production
-
+Link demo project: https://drive.google.com/file/d/1RTP2tJ2jR1tm6_j6pRtzOfdRQ9WHlbjv/view?usp=sharing
 # Current status
-
+Manager and Guest have some features like above.
 # Future works
-
+* Design login function by face recognition.
+* Design the function of booking airline tickets and taking them to the place for customers.
+* Additional services such as dining, swimming pool, etc.
+* Additional for customers to self-pay by online bank account without the support of the hotel.
 # Reference
 * Creately, “The Easy Guide to UML Deployment Diagrams”. Địa chỉ: https://creately.com/blog/diagrams/deployment-diagram-tutorial/. [Truy cập ngày 20/05/2022]. 
 * Viblo, “Phân tích thiết kế hệ thống thông tin sử dụng biểu đồ UML”. Địa chỉ: https://creately.com/blog/diagrams/deployment-diagram-tutorial/. [Truy cập ngày 20/05/2022]. 
